@@ -1015,6 +1015,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0cfd583a-cdaf-4b80-8df6-d34ef961b648)
   )
+  (text "https://www.electronicshub.org/555-timer-pwm/" (at 76.962 138.684 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid bb2d0ada-3467-4ace-bd28-e994b7e508f7)
+  )
 
   (symbol (lib_id "Simulation_SPICE:NPN") (at 132.842 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
