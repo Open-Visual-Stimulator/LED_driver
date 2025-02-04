@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "GVQSSPA113JZKZV1V61"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "GVQSSPA113JZKZV1V61")
+        (spec "default")
+    )
+)

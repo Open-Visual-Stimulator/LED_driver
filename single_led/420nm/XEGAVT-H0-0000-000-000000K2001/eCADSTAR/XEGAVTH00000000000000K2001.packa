@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "XEGAVT-H0-0000-000-000000K2001"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-05-17-16:54:40)
+    (mountForm default
+        (footprintRef "XEGAVTH00000000000000K2001")
+        (spec "System")
+    )
+)

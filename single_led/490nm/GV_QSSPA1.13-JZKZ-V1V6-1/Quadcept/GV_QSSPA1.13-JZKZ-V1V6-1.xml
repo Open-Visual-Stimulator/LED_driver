@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/17196359/1593390/2.50/3/3/LED/-->
+<quadcept_library>
+  <setting unit="mil" />
+  <textstyle name="Default" height="47.244094488189" strokewidth="7.8740157480315" charwidth="47.244094488189" />
+  <textstyle name="Dimension" height="19.6850393700787" strokewidth="0" charwidth="19.6850393700787" />
+  <textstyle name="H127W0635TH00762" height="50" strokewidth="3" charwidth="25" />
+  <textstyle name="H15W15TH02" height="59.0551181102362" strokewidth="7.8740157480315" charwidth="59.0551181102362" />
+  <padstyle name="r280_55" surface="True" plated="False" isvia="False" nopaste="False" nomask="True" complex="False" holesize="0">
+    <padshape layer="TOP" shape="rectangle" width="21.653543307086" height="110.23622047244" />
+    <padshape layer="TOP_SOLDER_MASK" shape="rectangle" width="29.527559055118" height="118.11023622047" />
+    <padshape layer="TOP_SOLDER_PASTE" shape="rectangle" width="21.653543307086" height="110.23622047244" />
+  </padstyle>
+  <padstyle name="r280_100" surface="True" plated="False" isvia="False" nopaste="False" nomask="True" complex="False" holesize="0">
+    <padshape layer="TOP" shape="rectangle" width="39.370078740157" height="110.23622047244" />
+    <padshape layer="TOP_SOLDER_MASK" shape="rectangle" width="47.244094488188" height="118.11023622047" />
+    <padshape layer="TOP_SOLDER_PASTE" shape="rectangle" width="39.370078740157" height="110.23622047244" />
+  </padstyle>
+  <footprint name="GVQSSPA113JZKZV1V61" originx="0" originy="0" pickpointx="0" pickpointy="0">
+    <pcbpin number="1" name="1" style="r280_55" originx="0" originy="-44.291338582677" rotation="90" />
+    <pcbpin number="2" name="2" style="r280_55" originx="0" originy="44.291338582677" rotation="90" />
+    <pcbpin number="3" name="3" style="r280_100" originx="0" originy="0" rotation="90" />
+    <line layer="TOP_ASSEMBLY" originx="-59.055118110235" originy="59.055118110235" endx="59.055118110235" endy="59.055118110235" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="59.055118110235" originy="59.055118110235" endx="59.055118110235" endy="-59.055118110235" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="59.055118110235" originy="-59.055118110235" endx="-59.055118110235" endy="-59.055118110235" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="-59.055118110235" originy="-59.055118110235" endx="-59.055118110235" endy="59.055118110235" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="-98.425196850392" originy="98.425196850392" endx="98.425196850392" endy="98.425196850392" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="98.425196850392" originy="98.425196850392" endx="98.425196850392" endy="-98.425196850392" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="98.425196850392" originy="-98.425196850392" endx="-98.425196850392" endy="-98.425196850392" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="-98.425196850392" originy="-98.425196850392" endx="-98.425196850392" endy="98.425196850392" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="0" originy="-78.740157480314" endx="0" endy="-78.740157480314" width="3.9370078740157" />
+    <arc layer="TOP_SILKSCREEN" originx="1.6391087961985E-15" originy="-80.708661417322" startangle="90.0" sweepangle="180.0" radius="1.9685039370079" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="0" originy="-82.67716535433" endx="0" endy="-82.67716535433" width="3.9370078740157" />
+    <arc layer="TOP_SILKSCREEN" originx="1.6391087961985E-15" originy="-80.708661417322" startangle="-90.0" sweepangle="180.0" radius="1.9685039370079" width="3.9370078740157" />
+  </footprint>
+  <symbol name="GV_QSSPA1.13-JZKZ-V1V6-1" originx="0" originy="0">
+    <line originx="200" originy="100" endx="700" endy="100" width="0" />
+    <line originx="700" originy="-300" endx="700" endy="100" width="0" />
+    <line originx="700" originy="-300" endx="200" endy="-300" width="0" />
+    <line originx="200" originy="100" endx="200" endy="-300" width="0" />
+    <sympin number="1" originx="200" originy="-200" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-200" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="K_1" />
+      <text name="pindes" originx="140" originy="-180" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="1" />
+    </sympin>
+    <sympin number="2" originx="200" originy="0" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="0" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="A" />
+      <text name="pindes" originx="140" originy="20" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="2" />
+    </sympin>
+    <sympin number="3" originx="200" originy="-100" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-100" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="K_2" />
+      <text name="pindes" originx="140" originy="-80" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="3" />
+    </sympin>
+  </symbol>
+  <component name="GV_QSSPA1.13-JZKZ-V1V6-1" designatorprefix="LED" height="68.110236220472" footprint="GVQSSPA113JZKZV1V61">
+    <comppin designator="1" sympin="1" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="K_1" />
+    <comppin designator="2" sympin="2" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="A" />
+    <comppin designator="3" sympin="3" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="K_2" />
+    <attached_symbol gate="1" name="GV_QSSPA1.13-JZKZ-V1V6-1" />
+    <pinmap designator="1" footprintpin="1" />
+    <pinmap designator="2" footprintpin="2" />
+    <pinmap designator="3" footprintpin="3" />
+    <text name="Datasheet" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://dammedia.osram.info/media/resource/hires/osram-dam-12216180/GV QSSPA1.13_EN.pdf" />
+    <text name="Description" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="High Power LEDs - Single Color GV QSSPA1.13" />
+    <text name="Mouser Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="720-GVQSSPA113A9486" />
+    <text name="Mouser Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.mouser.co.uk/ProductDetail/ams-OSRAM/GV-QSSPA1.13-JZKZ-V1V6-1?qs=vvQtp7zwQdMSmTtBOA0oaQ%3D%3D" />
+    <text name="Manufacturer_Name" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="ams OSRAM" />
+    <text name="Manufacturer_Part_Number" originx="750" originy="200" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="GV QSSPA1.13-JZKZ-V1V6-1" />
+  </component>
+</quadcept_library>

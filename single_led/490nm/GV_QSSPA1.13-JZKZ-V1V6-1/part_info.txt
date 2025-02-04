@@ -1,0 +1,9 @@
+Manufacturer=ams OSRAM
+PartNumber=GV QSSPA1.13-JZKZ-V1V6-1
+PartCategory=LED
+PackageCategory=Other
+PinCount=3
+Version=1.3
+Released=2022-12-21 07:29:59
+Downloaded=2025-02-03 12:45:23
+3D=Y

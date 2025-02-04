@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'XPEBRD_L1_0000_00902'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "CREE LED", "XPEBRD-L1-0000-00902" (!) = "", "XPEBRDL1000000902", "Other", "941-XPEBRDL100000902", "https://www.mouser.co.uk/ProductDetail/Cree-LED/XPEBRD-L1-0000-00902?qs=k72kBymvut%252BVpwGSaf240A%3D%3D", "High Power LEDs - Single Colour RED, 80.6lm", "https://www.cree.com/led-components/media/documents/XLampXPE2.pdf", "2.39 mm"
+END_PART
+
+END.

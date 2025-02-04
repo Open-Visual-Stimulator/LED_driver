@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "GV_QSSPA1_13-JZKZ-V1V6-1"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-01-30-14:23:31)
+    (mountForm default
+        (footprintRef "GVQSSPA113JZKZV1V61")
+        (spec "System")
+    )
+)

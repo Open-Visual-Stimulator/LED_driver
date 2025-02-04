@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'XEGAVT_H0_0000_000_000000K2001'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "CREE LED", "XEGAVT-H0-0000-000-000000K2001" (!) = "", "XEGAVTH00000000000000K2001", "Other", "941-XEGAVTH000K2001", "https://www.mouser.co.uk/ProductDetail/Cree-LED/XEGAVT-H0-0000-000-000000K2001?qs=tlsG%2FOw5FFj53iw%2Fdp2xvQ%3D%3D", "LED Lighting Color XLamp XE-G Violet 3-SMD, No Lead", "https://downloads.cree-led.com/files/ds/x/XLamp-XE-G.pdf", "1.13 mm"
+END_PART
+
+END.

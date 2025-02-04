@@ -1,0 +1,16 @@
+.AUV3-SQ32-0RT0K :1 ;High Power LEDs - Single Colour 3W 3535, 35deg, 365nm
+AUV3SQ320RT0K
+*STM IC
+*NGS
+*PLB 1="K" 2="A" 3="EP"
+*MXP 3
+*DFN AUV3-SQ32-0RT0K
+~!Mouser Part Number (630-AUV3-SQ32-0RT0K)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/AUV3-SQ32-0RT0K?qs=T94vaHKWudTB4UL7ek5Qww%3D%3D)
+~!Manufacturer_Name (Avago Technologies)
+~!Manufacturer_Part_Number (AUV3-SQ32-0RT0K)
+~!Link Datasheet (https://docs.broadcom.com/doc/AUV3-Sxx2-0xx0K-3W-3535-SMT-UV-LED-DS)
+~!Height (3.25mm)
+~!3D_Model (AUV3-SQ32-0RT0K)
+AUV3-SQ32-0RT0K
+1.1!U 2.1!U 3.1!U 

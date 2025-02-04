@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "XQEGRN000000000000B02"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "XQEGRN000000000000B02")
+        (spec "default")
+    )
+)

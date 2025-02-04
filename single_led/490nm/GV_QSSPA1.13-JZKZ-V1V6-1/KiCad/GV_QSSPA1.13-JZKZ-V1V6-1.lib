@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model GV_QSSPA1.13-JZKZ-V1V6-1
+#/17196359/1593390/2.50/3/3/LED
+DEF GV_QSSPA1.13-JZKZ-V1V6-1 LED 0 30 Y Y 1 F N
+F0 "LED" 750 300 50 H V L CNN
+F1 "GV_QSSPA1.13-JZKZ-V1V6-1" 750 200 50 H V L CNN
+F2 "GVQSSPA113JZKZV1V61" 750 100 50 H I L CNN
+F3 "https://dammedia.osram.info/media/resource/hires/osram-dam-12216180/GV%20QSSPA1.13_EN.pdf" 750 0 50 H I L CNN
+F4 "High Power LEDs - Single Color GV QSSPA1.13" 750 -100 50 H I L CNN "Description"
+F5 "1.73" 750 -200 50 H I L CNN "Height"
+F6 "720-GVQSSPA113A9486" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/ams-OSRAM/GV-QSSPA1.13-JZKZ-V1V6-1?qs=vvQtp7zwQdMSmTtBOA0oaQ%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "ams OSRAM" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "GV QSSPA1.13-JZKZ-V1V6-1" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X K_1 1 0 -200 200 R 50 50 0 0 P
+X A 2 0 0 200 R 50 50 0 0 P
+X K_2 3 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

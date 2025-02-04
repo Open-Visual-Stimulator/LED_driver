@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_17196359"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-12-21-07:29:59)
+    (utime 2024-01-30-14:23:31)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "GV_QSSPA1_13-JZKZ-V1V6-1")
+)
+
+
+(pinAssign "ECS_17196359"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-12-21-07:29:59)
+    (utime 2024-01-30-14:23:31)
+    (interface
+        (port "1" (symbPinId 1) (portName "K_1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "K_2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_17196359")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "GV_QSSPA1_13-JZKZ-V1V6-1")
+)
+
+
+(part "GV_QSSPA1_13-JZKZ-V1V6-1"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-12-21-07:29:59)
+    (utime 2024-01-30-14:23:31)
+    (packageRef "GV_QSSPA1_13-JZKZ-V1V6-1")
+    (pinAssignRef "ECS_17196359")
+    (interface
+        (port "1" (symbPinId 1) (portName "K_1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "K_2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "LED")
+    (property "description" "High Power LEDs - Single Color GV QSSPA1.13")
+    (property "Mouser_Part_Number" "720-GVQSSPA113A9486")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/ams-OSRAM/GV-QSSPA1.13-JZKZ-V1V6-1?qs=vvQtp7zwQdMSmTtBOA0oaQ%3D%3D")
+    (property "Manufacturer_Name" "ams OSRAM")
+    (property "Manufacturer_Part_Number" "GV QSSPA1.13-JZKZ-V1V6-1")
+    (property "Datasheet_Link" "https://dammedia.osram.info/media/resource/hires/osram-dam-12216180/GV%20QSSPA1.13_EN.pdf")
+    (property "compAreaTopHeight" 1.73)
+)
+
+

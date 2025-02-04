@@ -1,0 +1,9 @@
+Manufacturer=CREE LED
+PartNumber=XEGAVT-H0-0000-000-000000K2001
+PartCategory=LED
+PackageCategory=Other
+PinCount=3
+Version=1.3
+Released=2023-08-31 15:28:05
+Downloaded=2025-02-03 12:41:25
+3D=Y

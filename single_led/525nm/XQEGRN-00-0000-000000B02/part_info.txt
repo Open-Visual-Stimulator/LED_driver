@@ -1,0 +1,9 @@
+Manufacturer=CREE LED
+PartNumber=XQEGRN-00-0000-000000B02
+PartCategory=LED
+PackageCategory=Other
+PinCount=2
+Version=2.3
+Released=2019-08-28 12:33:39
+Downloaded=2025-02-03 12:55:45
+3D=N

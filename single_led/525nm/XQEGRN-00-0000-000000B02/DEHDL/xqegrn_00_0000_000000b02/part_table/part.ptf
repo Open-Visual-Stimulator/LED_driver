@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'XQEGRN_00_0000_000000B02'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "CREE LED", "XQEGRN-00-0000-000000B02" (!) = "", "XQEGRN000000000000B02", "Other", "941-XQEGRN0000B02", "https://www.mouser.co.uk/ProductDetail/Cree-Inc/XQEGRN-00-0000-000000B02?qs=TZi4OKKi7fXsyXt9lfCMHw%3D%3D", "High Power LEDs - Single Color GREEN, 93.9LM", "https://componentsearchengine.com/Datasheets/1/XQEGRN-00-0000-000000B02.pdf"
+END_PART
+
+END.

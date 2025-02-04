@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'AUV3_SQ32_0RT0K'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Avago Technologies", "AUV3-SQ32-0RT0K" (!) = "", "AUV3SQ320RT0K", "Other", "630-AUV3-SQ32-0RT0K", "https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/AUV3-SQ32-0RT0K?qs=T94vaHKWudTB4UL7ek5Qww%3D%3D", "High Power LEDs - Single Colour 3W 3535, 35deg, 365nm", "https://docs.broadcom.com/doc/AUV3-Sxx2-0xx0K-3W-3535-SMT-UV-LED-DS", "3.25 mm"
+END_PART
+
+END.

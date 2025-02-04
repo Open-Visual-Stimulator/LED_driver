@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "6_wave_stimulator")(type "KiCad")(uri "${KIPRJMOD}/6_wave_stimulator.pretty")(options "")(descr ""))
+)

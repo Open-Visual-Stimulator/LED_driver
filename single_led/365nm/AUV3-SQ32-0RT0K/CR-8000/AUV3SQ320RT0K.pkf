@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "AUV3SQ320RT0K"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "AUV3SQ320RT0K")
+        (spec "default")
+    )
+)

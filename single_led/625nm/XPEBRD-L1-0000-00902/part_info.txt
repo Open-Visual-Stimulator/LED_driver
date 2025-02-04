@@ -1,0 +1,9 @@
+Manufacturer=CREE LED
+PartNumber=XPEBRD-L1-0000-00902
+PartCategory=LED
+PackageCategory=Other
+PinCount=3
+Version=1.2
+Released=2022-06-17 10:12:15
+Downloaded=2025-02-03 13:01:00
+3D=Y

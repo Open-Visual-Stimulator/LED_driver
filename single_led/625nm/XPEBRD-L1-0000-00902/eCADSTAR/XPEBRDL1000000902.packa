@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "XPEBRD-L1-0000-00902"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-06-17-10:12:15)
+    (mountForm default
+        (footprintRef "XPEBRDL1000000902")
+        (spec "System")
+    )
+)

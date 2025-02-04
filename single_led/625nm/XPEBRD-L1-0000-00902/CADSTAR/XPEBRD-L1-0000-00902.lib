@@ -1,0 +1,16 @@
+.XPEBRD-L1-0000-00902 :1 ;High Power LEDs - Single Colour RED, 80.6lm
+XPEBRDL1000000902
+*STM LED
+*NGS
+*PLB 1="K" 2="A" 3="EP"
+*MXP 3
+*DFN XPEBRD-L1-0000-00902
+~!Mouser Part Number (941-XPEBRDL100000902)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Cree-LED/XPEBRD-L1-0000-00902?qs=k72kBymvut%252BVpwGSaf240A%3D%3D)
+~!Manufacturer_Name (CREE LED)
+~!Manufacturer_Part_Number (XPEBRD-L1-0000-00902)
+~!Link Datasheet (https://www.cree.com/led-components/media/documents/XLampXPE2.pdf)
+~!Height (2.39mm)
+~!3D_Model (XPEBRD-L1-0000-00902)
+XPEBRD-L1-0000-00902
+1.1!U 2.1!U 3.1!U 

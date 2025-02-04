@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_14409812"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-06-17-10:12:15)
+    (utime 2024-02-15-05:29:36)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "XPEBRD-L1-0000-00902")
+)
+
+
+(pinAssign "ECS_14409812"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-06-17-10:12:15)
+    (utime 2024-02-15-05:29:36)
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "EP") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_14409812")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "XPEBRD-L1-0000-00902")
+)
+
+
+(part "XPEBRD-L1-0000-00902"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-06-17-10:12:15)
+    (utime 2024-02-15-05:29:36)
+    (packageRef "XPEBRD-L1-0000-00902")
+    (pinAssignRef "ECS_14409812")
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "EP") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "LED")
+    (property "description" "High Power LEDs - Single Colour RED, 80.6lm")
+    (property "Mouser_Part_Number" "941-XPEBRDL100000902")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Cree-LED/XPEBRD-L1-0000-00902?qs=k72kBymvut%252BVpwGSaf240A%3D%3D")
+    (property "Manufacturer_Name" "CREE LED")
+    (property "Manufacturer_Part_Number" "XPEBRD-L1-0000-00902")
+    (property "Datasheet_Link" "https://www.cree.com/led-components/media/documents/XLampXPE2.pdf")
+    (property "compAreaTopHeight" 2.39)
+)
+
+

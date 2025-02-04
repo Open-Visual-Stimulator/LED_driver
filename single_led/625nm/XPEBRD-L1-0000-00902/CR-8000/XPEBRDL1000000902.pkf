@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "XPEBRDL1000000902"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "XPEBRDL1000000902")
+        (spec "default")
+    )
+)

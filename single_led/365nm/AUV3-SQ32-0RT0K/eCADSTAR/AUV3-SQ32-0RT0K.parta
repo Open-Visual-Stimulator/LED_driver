@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_13784701"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-07-28-04:31:49)
+    (utime 2024-06-03-07:35:41)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "AUV3-SQ32-0RT0K")
+)
+
+
+(pinAssign "ECS_13784701"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-07-28-04:31:49)
+    (utime 2024-06-03-07:35:41)
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "EP") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_13784701")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "AUV3-SQ32-0RT0K")
+)
+
+
+(part "AUV3-SQ32-0RT0K"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-07-28-04:31:49)
+    (utime 2024-06-03-07:35:41)
+    (packageRef "AUV3-SQ32-0RT0K")
+    (pinAssignRef "ECS_13784701")
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "EP") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "IC")
+    (property "description" "High Power LEDs - Single Colour 3W 3535, 35deg, 365nm")
+    (property "Mouser_Part_Number" "630-AUV3-SQ32-0RT0K")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/AUV3-SQ32-0RT0K?qs=T94vaHKWudTB4UL7ek5Qww%3D%3D")
+    (property "Manufacturer_Name" "Avago Technologies")
+    (property "Manufacturer_Part_Number" "AUV3-SQ32-0RT0K")
+    (property "Datasheet_Link" "https://docs.broadcom.com/doc/AUV3-Sxx2-0xx0K-3W-3535-SMT-UV-LED-DS")
+    (property "compAreaTopHeight" 3.25)
+)
+
+

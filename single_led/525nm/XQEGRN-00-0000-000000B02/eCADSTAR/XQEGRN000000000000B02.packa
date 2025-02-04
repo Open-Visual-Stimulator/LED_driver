@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "XQEGRN-00-0000-000000B02"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-03-02-12:46:44)
+    (mountForm default
+        (footprintRef "XQEGRN000000000000B02")
+        (spec "System")
+    )
+)

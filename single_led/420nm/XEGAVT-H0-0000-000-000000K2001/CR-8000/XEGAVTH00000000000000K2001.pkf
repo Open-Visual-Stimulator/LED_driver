@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "XEGAVTH00000000000000K2001"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "XEGAVTH00000000000000K2001")
+        (spec "default")
+    )
+)

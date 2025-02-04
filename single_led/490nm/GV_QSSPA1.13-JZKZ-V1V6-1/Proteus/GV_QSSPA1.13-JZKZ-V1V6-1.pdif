@@ -1,0 +1,104 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "GV_QSSPA1.13-JZKZ-V1V6-1"
+   (description "High Power LEDs - Single Color GV QSSPA1.13")
+   (family "DIO")
+   (package "GVQSSPA113JZKZV1V61")
+   (attribute "Datasheet Link" "https://dammedia.osram.info/media/resource/hires/osram-dam-12216180/GV%20QSSPA1.13_EN.pdf")
+   (attribute "Geometry.Height" "1.73mm")
+   (attribute "Mouser Part Number" "720-GVQSSPA113A9486")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ams-OSRAM/GV-QSSPA1.13-JZKZ-V1V6-1?qs=vvQtp7zwQdMSmTtBOA0oaQ%3D%3D")
+   (attribute "Manufacturer_Name" "ams OSRAM")
+   (attribute "Manufacturer_Part_Number" "GV QSSPA1.13-JZKZ-V1V6-1")
+   (gate
+    (symbol "GV_QSSPA1.13-JZKZ-V1V6-1")
+    (pin "K_1" 1 PS)
+    (pin "A" 2 PS)
+    (pin "K_2" 3 PS)
+   )
+  )
+  (symbol "GV_QSSPA1.13-JZKZ-V1V6-1"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 700 100) (pt 700 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "GVQSSPA113JZKZV1V61"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.5 1.5)
+      (pt 1.5 1.5)
+      (pt 1.5 -1.5)
+      (pt -1.5 -1.5)
+      (pt -1.5 1.5))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.5 2.5)
+      (pt 2.5 2.5)
+      (pt 2.5 -2.5)
+      (pt -2.5 -2.5)
+      (pt -2.5 2.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 0 -2)
+      (arc (pt 0.000 -2.000) (pt -0.050 -2.100) (pt 0.050 -2.000) (start 180.0) (sweep 90.0))
+      (pt 0 -2.1)
+      (arc (pt 0.000 -2.100) (pt -0.050 -2.100) (pt 0.050 -2.000) (start 180.0) (sweep -90.0))
+      (pt 0 -2))))
+   (leg 1 (pt 0.000 -1.125) (padstack 0))
+   (leg 2 (pt 0.000 1.125) (padstack 0))
+   (leg 3 (pt 0.000 0.000) (padstack 3))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.550 2.800 0 0 0.000))
+   )
+   (padstack 3
+    (plated false)
+    (pad (layer TCOP) (rectf 1.000 2.800 0 0 0.000))
+   )
+   (model "GV_QSSPA1.13-JZKZ-V1V6-1.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)
